@@ -1,0 +1,55 @@
+.navegacion{
+    display: flex;
+    height: 300px;
+background-image: url(img/LA10FUTBOL5.png);
+   justify-content: right;
+}
+.navegacion_links{
+    display: flex;
+    align-items: flex-end;
+    margin-right: 15px;
+    flex-wrap: wrap;
+}
+.navegacion_links li{
+  margin-left: 40px;
+  list-style: none;
+
+}
+.navegacion_links li a{
+    text-decoration: none;
+    color: rgb(218, 17, 34);
+    
+    
+}
+.recursos{
+    background-color: rgb(23, 244, 11);
+    display: flex;
+    flex-grow: 1;
+    font: 1em sans-serif;
+    margin-top: 30px;
+}
+.recursos_adicionales{
+    background-color: blueviolet;
+    width: 300px;
+    flex-grow: 1;
+    font: 1em sans-serif;
+}
+.estilo{
+    display: flex;
+    height: 350px;
+    padding: 2rem;
+    background-color: aqua;
+    margin-top: 30px;
+    justify-items: right;
+}
+.pie{
+    background-color: brown;
+}
+.navegacion_links_dos li a{
+   text-decoration: underline;
+    color: black;
+}
+.recursos h2 {
+    color: blue;
+    text-decoration: underline;
+}
